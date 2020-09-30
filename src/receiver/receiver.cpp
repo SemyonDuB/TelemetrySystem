@@ -12,5 +12,5 @@ void setup()
 
 void loop() 
 {
-    Serial.print(dt::decode_msg(2));
+    Serial.print(dt::decode_msg(20_ms, 2));
 }

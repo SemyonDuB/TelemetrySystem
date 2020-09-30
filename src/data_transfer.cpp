@@ -6,7 +6,7 @@
 #include "data_transfer.hpp"
 
 
-unsigned long dt::operator "" _ms(unsigned long long time) { return time; }
+unsigned long dt::time_literals::operator "" _ms(unsigned long long time) { return time; }
 
 
 bool dt::data_reader::read_data(int signal_pin, int sig_duration)
