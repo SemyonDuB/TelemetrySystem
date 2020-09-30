@@ -1,0 +1,41 @@
+\hypertarget{namespacedt}{}\section{dt Namespace Reference}
+\label{namespacedt}\index{dt@{dt}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classdt_1_1data__reader}{data\+\_\+reader}
+\begin{DoxyCompactList}\small\item\em Read data/signals from sensor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacedt_ab44fdb124992df044776c005d3e6b1ea}\label{namespacedt_ab44fdb124992df044776c005d3e6b1ea}} 
+unsigned long \hyperlink{namespacedt_ab44fdb124992df044776c005d3e6b1ea}{operator\char`\"{}\char`\"{} \+\_\+ms} (unsigned long long time)
+\begin{DoxyCompactList}\small\item\em A function for specifying time in milliseconds. \end{DoxyCompactList}\item 
+void \hyperlink{namespacedt_a895a4305e8593c4428b867c1675a46fa}{encode\+\_\+msg} (String msg, int sig\+\_\+duration=20\+\_\+ms, int write\+\_\+pin=5)
+\item 
+\mbox{\Hypertarget{namespacedt_a5b66b3d9dbde9ddeacd2269ce71e7002}\label{namespacedt_a5b66b3d9dbde9ddeacd2269ce71e7002}} 
+String {\bfseries decode\+\_\+msg} (int sig\+\_\+duration=20\+\_\+ms, int read\+\_\+pin=2)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A namespace for data transfer functions and classes. 
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespacedt_a895a4305e8593c4428b867c1675a46fa}\label{namespacedt_a895a4305e8593c4428b867c1675a46fa}} 
+\index{dt@{dt}!encode\+\_\+msg@{encode\+\_\+msg}}
+\index{encode\+\_\+msg@{encode\+\_\+msg}!dt@{dt}}
+\subsubsection{\texorpdfstring{encode\+\_\+msg()}{encode\_msg()}}
+{\footnotesize\ttfamily void dt\+::encode\+\_\+msg (\begin{DoxyParamCaption}\item[{String}]{msg,  }\item[{int}]{sig\+\_\+duration = {\ttfamily 20\+\_\+ms},  }\item[{int}]{write\+\_\+pin = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+Encode msg and send it to the receiver sensor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & is the char sequence. \\
+\hline
+{\em sig\+\_\+duration} & is how long should be lasts signal. \\
+\hline
+{\em write\+\_\+to\+\_\+pin} & is a power supply to the sensor. \\
+\hline
+\end{DoxyParams}

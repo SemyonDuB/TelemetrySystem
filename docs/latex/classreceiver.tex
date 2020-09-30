@@ -1,0 +1,61 @@
+\hypertarget{classreceiver}{}\section{receiver Class Reference}
+\label{classreceiver}\index{receiver@{receiver}}
+
+
+singleton receiver class.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classreceiver_a53ba0b715f1b1f2e99e1b59567b537cf}\label{classreceiver_a53ba0b715f1b1f2e99e1b59567b537cf}} 
+int {\bfseries get\+\_\+pin} ()
+\item 
+\mbox{\Hypertarget{classreceiver_a5f97c85e8548e022c80e6b10ba285333}\label{classreceiver_a5f97c85e8548e022c80e6b10ba285333}} 
+void {\bfseries set\+\_\+pin} (int num)
+\item 
+\mbox{\Hypertarget{classreceiver_a03060955e9dffcf8d7878bb67a576286}\label{classreceiver_a03060955e9dffcf8d7878bb67a576286}} 
+int {\bfseries get\+\_\+serial\+\_\+speed} ()
+\item 
+\mbox{\Hypertarget{classreceiver_ab4f731a1fe7a601ea1f906bbd1133b2b}\label{classreceiver_ab4f731a1fe7a601ea1f906bbd1133b2b}} 
+void {\bfseries set\+\_\+serial\+\_\+speed} (int speed)
+\item 
+void \hyperlink{classreceiver_a68ac5dfbbc83c438998fb859d0532750}{receive} ()
+\begin{DoxyCompactList}\small\item\em receive a public method. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classreceiver}{receiver} \& \hyperlink{classreceiver_acf3d61c94a47ebfbc2ec416c24d492fd}{instance} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+singleton receiver class. 
+
+Receiver is initialize necessary components and try to receive data from sender sensor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classreceiver_acf3d61c94a47ebfbc2ec416c24d492fd}\label{classreceiver_acf3d61c94a47ebfbc2ec416c24d492fd}} 
+\index{receiver@{receiver}!instance@{instance}}
+\index{instance@{instance}!receiver@{receiver}}
+\subsubsection{\texorpdfstring{instance()}{instance()}}
+{\footnotesize\ttfamily static \hyperlink{classreceiver}{receiver}\& receiver\+::instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+a static member function. \begin{DoxyReturn}{Returns}
+The static instance of this class 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classreceiver_a68ac5dfbbc83c438998fb859d0532750}\label{classreceiver_a68ac5dfbbc83c438998fb859d0532750}} 
+\index{receiver@{receiver}!receive@{receive}}
+\index{receive@{receive}!receiver@{receiver}}
+\subsubsection{\texorpdfstring{receive()}{receive()}}
+{\footnotesize\ttfamily void receiver\+::receive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+receive a public method. 
+
+Receive data from sender sensor and decode it into ascii symbol (char). 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/receiver/receiver.\+cpp\end{DoxyCompactItemize}

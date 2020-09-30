@@ -1,0 +1,55 @@
+\hypertarget{classdt_1_1data__reader}{}\section{dt\+:\+:data\+\_\+reader Class Reference}
+\label{classdt_1_1data__reader}\index{dt\+::data\+\_\+reader@{dt\+::data\+\_\+reader}}
+
+
+Read data/signals from sensor.  
+
+
+
+
+{\ttfamily \#include $<$data\+\_\+transfer.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classdt_1_1data__reader_a4ca0a2870b3a03235d7804acf36672ed}{read\+\_\+data} (int signal\+\_\+pin, int sig\+\_\+duration=20\+\_\+ms)
+\begin{DoxyCompactList}\small\item\em Read data from signal pin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdt_1_1data__reader_ab55bdd30fa1dd0d4fc5ec162e911d760}\label{classdt_1_1data__reader_ab55bdd30fa1dd0d4fc5ec162e911d760}} 
+static \hyperlink{classdt_1_1data__reader}{data\+\_\+reader} \& {\bfseries instance} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Read data/signals from sensor. 
+
+Read data/signals from sender sensor and translate it into bool. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classdt_1_1data__reader_a4ca0a2870b3a03235d7804acf36672ed}\label{classdt_1_1data__reader_a4ca0a2870b3a03235d7804acf36672ed}} 
+\index{dt\+::data\+\_\+reader@{dt\+::data\+\_\+reader}!read\+\_\+data@{read\+\_\+data}}
+\index{read\+\_\+data@{read\+\_\+data}!dt\+::data\+\_\+reader@{dt\+::data\+\_\+reader}}
+\subsubsection{\texorpdfstring{read\+\_\+data()}{read\_data()}}
+{\footnotesize\ttfamily bool dt\+::data\+\_\+reader\+::read\+\_\+data (\begin{DoxyParamCaption}\item[{int}]{signal\+\_\+pin,  }\item[{int}]{sig\+\_\+duration = {\ttfamily 20\+\_\+ms} }\end{DoxyParamCaption})}
+
+
+
+Read data from signal pin. 
+
+Read data from signal pin and translate it into bool by specific time duration.
+
+
+\begin{DoxyParams}{Parameters}
+{\em signal\+\_\+pin} & just pin where we get this signals. \\
+\hline
+{\em sig\+\_\+duration} & is how long lasts signal. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{data__transfer_8hpp}{data\+\_\+transfer.\+hpp}\item 
+src/\hyperlink{data__transfer_8cpp}{data\+\_\+transfer.\+cpp}\end{DoxyCompactItemize}
